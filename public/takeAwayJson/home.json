@@ -1,0 +1,178 @@
+{
+  "ret": true,
+  "data": {
+    "slideshowList": [{
+      "id": "1",
+      "url": "imgs/sildeShow/nav01.jpg"
+    }, {
+      "id": "2",
+      "url": "imgs/sildeShow/nav02.jpg"
+    }, {
+      "id": "3",
+      "url": "imgs/sildeShow/nav03.jpg"
+    }, {
+      "id": "0",
+      "url": "imgs/sildeShow/nav04.jpg"
+    }, {
+      "id": "3",
+      "url": "imgs/sildeShow/nav05.jpg"
+    }],
+    "navList": {
+      "navHeaderList": [{
+        "id": "001",
+        "url": "imgs/nav/nav-header_01.gif",
+        "text": "午餐"
+      }, {
+        "id": "002",
+        "url": "imgs/nav/nav-header_02.gif",
+        "text": "甜品饮品"
+      }, {
+        "id": "003",
+        "url": "imgs/nav/nav-header_03.gif",
+        "text": "超市便利"
+      }, {
+        "id": "004",
+        "url": "imgs/nav/nav-header_04.gif",
+        "text": "水果蔬菜"
+      }, {
+        "id": "005",
+        "url": "imgs/nav/nav-header_05.gif",
+        "text": "送药上门"
+      }],
+      "navListList": [{
+        "id": "001",
+        "icon": "\ue612",
+        "text": "有机蔬菜"
+      }, {
+        "id": "002",
+        "icon": "\ue70e",
+        "text": "水果"
+      }, {
+        "id": "003",
+        "icon": "\ue60f",
+        "text": "下午茶"
+      }, {
+        "id": "004",
+        "icon": "\ue611",
+        "text": "火锅干锅"
+      }, {
+        "id": "005",
+        "icon": "\ue603",
+        "text": "浪漫鲜花"
+      }, {
+        "id": "006",
+        "icon": "\ue69e",
+        "text": "家常菜"
+      }, {
+        "id": "007",
+        "icon": "\ue626",
+        "text": "汉堡披萨"
+      }, {
+        "id": "008",
+        "icon": "\ue614",
+        "text": "日韩料理"
+      }, {
+        "id": "009",
+        "icon": "\ue610",
+        "text": "川湘菜"
+      }, {
+        "id": "010",
+        "icon": "\ue608",
+        "text": "炸鸡"
+      }, {
+        "id": "011",
+        "icon": "\ue601",
+        "text": "蛋糕"
+      }, {
+        "id": "012",
+        "icon": "\ue61e",
+        "text": "面包"
+      }, {
+        "id": "013",
+        "icon": "\ue8b2",
+        "text": "早餐"
+      }, {
+        "id": "014",
+        "icon": "\ue605",
+        "text": "快餐"
+      }],
+      "navListLast": {
+        "icon": "\ue630",
+        "text": "点我更多"
+      }
+    },
+    "merchantList": [{
+      "id": "001",
+      "img": "imgs/merchantlist/zunyiyangroufen/zunyiyangroufen.png",
+      "firstLineName": "遵义羊肉粉",
+      "starLine": "5",
+      "starType": "1",
+      "secondLine": {
+        "grade": "4.7",
+        "sales": "月售1700",
+        "time": "33分钟 | 605m"
+      },
+      "thirdLineList": ["起送￥30", "配送费￥2.5", "人均￥14"],
+      "thirdLineLabel": false,
+      "fourthLineList": ["米粉相当Nice", "热情掌柜"],
+      "fifthLineList": ["22减11", "55减10", "115减22", "42减20"],
+      "notice": "2020年,遵义羊肉粉感谢各位新老客户对本店的支持,谢谢!!!",
+      "sendPrice": 2.5,
+      "startPrice": 30
+    }, {
+      "id": "002",
+      "img": "imgs/merchantlist/xiaziwei/xiaziwei.jpg",
+      "firstLineName": "虾滋味·烧烤·小龙虾（钱江世纪城店)",
+      "starLine": "2",
+      "starType": "2",
+      "secondLine": {
+        "grade": "2.0",
+        "sales": "月售811",
+        "time": "50分钟 | 837m"
+      },
+      "thirdLineList": ["起送￥17", "配送1.5"],
+      "thirdLineLabel": true,
+      "fourthLineList": ["不好吃"],
+      "fifthLineList": ["32减5"],
+      "notice": "感谢支持,谢谢!!!",
+      "sendPrice": 1.5,
+      "startPrice": 17
+    }, {
+      "id": "003",
+      "img": "imgs/merchantlist/xiangyu/xiangyu.png",
+      "firstLineName": "享鱼",
+      "starLine": "0",
+      "starType": "0",
+      "secondLine": {
+       "grade": "暂无评分",
+       "sales": "月售30",
+       "time": "21分钟 | 132m"
+      },
+      "thirdLineList": ["起送￥10", "免配送费"],
+      "thirdLineLabel": false,
+      "fourthLineList": ["鱼很新鲜", "热情掌柜", "逗b客服"],
+      "fifthLineList": ["2减1", "15减10"],
+      "notice": "享鱼谢谢各位",
+      "sendPrice": 0,
+      "startPrice": 10
+    }, {
+      "id": "004",
+      "img": "imgs/merchantlist/maocai/maocai.png",
+      "firstLineName": "火龙女:冒菜",
+      "starLine": "3",
+      "starType": "1",
+      "secondLine": {
+        "grade": "2.6",
+        "sales": "月售3000+",
+        "time": "53分钟 | 954m"
+      },
+      "thirdLineList": ["起送￥20", "免配送费", "人均￥30"],
+      "thirdLineLabel": true,
+      "fourthLineList": ["热情掌柜"],
+      "fifthLineList": ["22减11", "55减10", "115减22", "42减20"],
+      "notice": "10年了谢谢!!!",
+      "sendPrice": 0,
+      "startPrice": 20
+    }]
+  }
+}

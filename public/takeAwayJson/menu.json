@@ -1,0 +1,750 @@
+{
+  "ret": true,
+  "headernavList": [{
+    "listList": {
+      "img": "imgs/sildeShow/nav04.jpg",
+      "list": [{
+        "id": "001",
+        "title": "热销",
+        "icon": "imgs/menu/hot.png",
+        "foodList": [{
+          "id": "1",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.1.webp",
+          "firstLine": "经典羊肉粉",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "2",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.2.webp",
+          "firstLine": "加鸡蛋2个(香煎鸡蛋)加鸡蛋2个(香煎鸡蛋)",
+          "secondLine": "爽滑Q弹",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "3",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.1.webp",
+          "firstLine": "香煎饼",
+          "secondLine": "以鲜香著称",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "002",
+        "title": "推荐",
+        "icon": "imgs/menu/discount.png",
+        "foodList": [{
+          "id": "4",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.3.webp",
+          "firstLine": "鲜美皮蛋",
+          "secondLine": "润滑",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 9,
+          "fourthLineNum": 0
+        }, {
+          "id": "5",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.1.webp",
+          "firstLine": "羊肉粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "6",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.2.webp",
+          "firstLine": "香煎鸡蛋",
+          "secondLine": "很香",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "003",
+        "title": "遵义招牌汤粉(面)",
+        "foodList": [{
+          "id": "7",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.1.webp",
+          "firstLine": "经典羊肉粉",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 20,
+          "fourthLineNum": 0
+        }, {
+          "id": "8",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.2.webp",
+          "firstLine": "经典牛肉粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "9",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.3.webp",
+          "firstLine": "原汤米粉",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 8,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "004",
+        "title": "遵义招牌套餐",
+        "foodList": [{
+          "id": "10",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.1.webp",
+          "firstLine": "套餐1",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "11",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.2.webp",
+          "firstLine": "套餐2",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 31,
+          "fourthLineNum": 0
+        }, {
+          "id": "12",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.1.webp",
+          "firstLine": "套餐3",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "005",
+        "title": "遵义干拌",
+        "foodList": [{
+          "id": "13",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.1.webp",
+          "firstLine": "羊肉拌粉",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 12,
+          "fourthLineNum": 0
+        }, {
+          "id": "14",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.2.webp",
+          "firstLine": "牛肉拌粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 3,
+          "fourthLineNum": 0
+        }, {
+          "id": "15",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.3.webp",
+          "firstLine": "鸡蛋拌粉",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }] 
+    },
+    "merchantinfoList": {
+      "address": "宁围街道市心北路777号"
+    }
+  }, 
+  {
+    "listList": {
+      "img": "imgs/sildeShow/nav01.jpg",
+      "list": [{
+        "id": "001",
+        "title": "热销",
+        "icon": "imgs/menu/hot.png",
+        "foodList": [{
+          "id": "1",
+          "img": "imgs/merchantlist/xiaziwei/detail_1.1.webp",
+          "firstLine": "爆款小龙虾",
+          "secondLine": "鲜美肉汁, 劲道有嚼劲",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "2",
+          "img": "imgs/merchantlist/xiaziwei/detail_1.2.webp",
+          "firstLine": "AD钙奶",
+          "secondLine": "越喝越健康",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "3",
+          "img": "imgs/merchantlist/xiaziwei/detail_1.3.webp",
+          "firstLine": "套餐",
+          "secondLine": "以鲜香著称",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "002",
+        "title": "推荐",
+        "icon": "imgs/menu/discount.png",
+        "foodList": [{
+          "id": "4",
+          "img": "imgs/merchantlist/xiaziwei/detail_1.1.webp",
+          "firstLine": "小龙虾",
+          "secondLine": "鲜美",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 9,
+          "fourthLineNum": 0
+        }, {
+          "id": "5",
+          "img": "imgs/merchantlist/xiaziwei/detail_4.webp",
+          "firstLine": "羊肉串",
+          "secondLine": "外焦里嫩, 非常美味",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "003",
+        "title": "烤羊肉串",
+        "foodList": [{
+          "id": "6",
+          "img": "imgs/merchantlist/xiaziwei/detail_4.webp",
+          "firstLine": "羊肉串",
+          "secondLine": "外焦里嫩, 非常美味",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "7",
+          "img": "imgs/merchantlist/xiaziwei/detail_4.webp",
+          "firstLine": "猪肉串",
+          "secondLine": "外焦里嫩, 非常美味",
+          "thirdLine": ["月售190"],
+          "fourthLinePrice": 13,
+          "fourthLineNum": 0
+        }, {
+          "id": "8",
+          "img": "imgs/merchantlist/xiaziwei/detail_4.webp",
+          "firstLine": "鸡肉串",
+          "secondLine": "外焦里嫩, 非常美味",
+          "thirdLine": ["月售250"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "004",
+        "title": "烤小串",
+        "foodList": [{
+          "id": "9",
+          "img": "imgs/merchantlist/xiaziwei/detail_6.webp",
+          "firstLine": "烤小串1",
+          "secondLine": "炭火烘烤, 加特殊香料",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "10",
+          "img": "imgs/merchantlist/xiaziwei/detail_6.webp",
+          "firstLine": "烤小串2",
+          "secondLine": "炭火烘烤, 加特殊香料",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 31,
+          "fourthLineNum": 0
+        }, {
+          "id": "11",
+          "img": "imgs/merchantlist/xiaziwei/detail_6.webp",
+          "firstLine": "烤小串3",
+          "secondLine": "炭火烘烤, 加特殊香料",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "005",
+        "title": "小龙虾",
+        "foodList": [{
+          "id": "12",
+          "img": "imgs/merchantlist/xiaziwei/detail_7.webp",
+          "firstLine": "龙虾",
+          "secondLine": "以鲜美汤汁浇灌",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 12,
+          "fourthLineNum": 0
+        }, {
+          "id": "13",
+          "img": "imgs/merchantlist/xiaziwei/detail_5.webp",
+          "firstLine": "花甲",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 3,
+          "fourthLineNum": 0
+        }, {
+          "id": "14",
+          "img": "imgs/merchantlist/xiaziwei/detail_7.webp",
+          "firstLine": "龙虾2",
+          "secondLine": "以鲜美汤汁浇灌",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }] 
+    },
+    "merchantinfoList": {
+      "address": "钱塘江街道7号"
+    }
+  },
+  {
+    "listList": {
+      "img": "imgs/sildeShow/nav02.jpg",
+      "list": [{
+        "id": "001",
+        "title": "热销",
+        "icon": "imgs/menu/hot.png",
+        "foodList": [{
+          "id": "1",
+          "img": "imgs/merchantlist/xiangyu/detail_1.webp",
+          "firstLine": "烤草鱼",
+          "secondLine": "鲜美肉汁, 劲道有嚼劲",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 42,
+          "fourthLineNum": 0
+        }, {
+          "id": "2",
+          "img": "imgs/merchantlist/xiangyu/detail_1.webp",
+          "firstLine": "烤鲈鱼",
+          "secondLine": "鲜美肉汁, 劲道有嚼劲",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 45,
+          "fourthLineNum": 0
+        }, {
+          "id": "3",
+          "img": "imgs/merchantlist/xiangyu/detail_8.webp",
+          "firstLine": "木耳",
+          "secondLine": "柔软清脆",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "002",
+        "title": "推荐",
+        "icon": "imgs/menu/discount.png",
+        "foodList": [{
+          "id": "4",
+          "img": "imgs/merchantlist/xiangyu/detail_2.webp",
+          "firstLine": "炒芹菜",
+          "secondLine": "润滑香甜",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 9,
+          "fourthLineNum": 0
+        }, {
+          "id": "5",
+          "img": "imgs/merchantlist/xiangyu/detail_3.webp",
+          "firstLine": "辣椒炒猪耳",
+          "secondLine": "麻辣的味道",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "6",
+          "img": "imgs/merchantlist/xiangyu/detail_7.webp",
+          "firstLine": "菠菜",
+          "secondLine": "小菜",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "003",
+        "title": "现炒新鲜饭菜",
+        "foodList": [{
+          "id": "7",
+          "img": "imgs/merchantlist/xiangyu/detail_3.webp",
+          "firstLine": "辣椒炒猪耳",
+          "secondLine": "麻辣的味道",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 20,
+          "fourthLineNum": 0
+        }, {
+          "id": "8",
+          "img": "imgs/merchantlist/xiangyu/detail_3.webp",
+          "firstLine": "红辣椒炒猪耳",
+          "secondLine": "麻辣的味道, 超辣",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "9",
+          "img": "imgs/merchantlist/xiangyu/detail_2.webp",
+          "firstLine": "炒芹菜",
+          "secondLine": "润滑香甜",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 8,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "004",
+        "title": "小菜",
+        "foodList": [{
+          "id": "10",
+          "img": "imgs/merchantlist/xiangyu/detail_5.webp",
+          "firstLine": "菠菜",
+          "secondLine": "小菜",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "11",
+          "img": "imgs/merchantlist/xiangyu/detail_6.webp",
+          "firstLine": "莴笋",
+          "secondLine": "小菜",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 31,
+          "fourthLineNum": 0
+        }, {
+          "id": "12",
+          "img": "imgs/merchantlist/xiangyu/detail_7.webp",
+          "firstLine": "油条",
+          "secondLine": "小菜",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "005",
+        "title": "鱼",
+        "foodList": [{
+          "id": "13",
+          "img": "imgs/merchantlist/xiangyu/detail_1.webp",
+          "firstLine": "草鱼",
+          "secondLine": "以鲜美著称",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 42,
+          "fourthLineNum": 0
+        }, {
+          "id": "14",
+          "img": "imgs/merchantlist/xiangyu/detail_1.webp",
+          "firstLine": "鲈鱼",
+          "secondLine": "以鲜美著称",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 45,
+          "fourthLineNum": 0
+        }, {
+          "id": "15",
+          "img": "imgs/merchantlist/xiangyu/detail_1.webp",
+          "firstLine": "清江鱼",
+          "secondLine": "以鲜美著称",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 50,
+          "fourthLineNum": 0
+        }]
+      }] 
+    },
+    "merchantinfoList": {
+      "address": "宁围街道市心东路12号"
+    }
+  },
+  {
+    "listList": {
+      "img": "imgs/sildeShow/nav01.jpg",
+      "list": [{
+        "id": "001",
+        "title": "热销",
+        "icon": "imgs/menu/hot.png",
+        "foodList": [{
+          "id": "1",
+          "img": "imgs/merchantlist/maocai/detail_1.webp",
+          "firstLine": "爆款藤椒大套餐",
+          "secondLine": "鲜美, 劲道, 嚼劲, 麻辣, 实惠大礼包",
+          "thirdLine": ["月售1000+", "赞150"],
+          "fourthLinePrice": 66,
+          "fourthLineNum": 0
+        }, {
+          "id": "2",
+          "img": "imgs/merchantlist/maocai/detail_1.webp",
+          "firstLine": "爆款麻辣大套餐",
+          "secondLine": "鲜美, 劲道, 嚼劲, 麻辣, 实惠大礼包",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 66,
+          "fourthLineNum": 0
+        }, {
+          "id": "3",
+          "img": "imgs/merchantlist/maocai/detail_1.webp",
+          "firstLine": "爆款不辣大套餐",
+          "secondLine": "鲜美, 劲道, 嚼劲, 麻辣, 实惠大礼包",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 66,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "002",
+        "title": "推荐",
+        "icon": "imgs/menu/discount.png",
+        "foodList": [{
+          "id": "4",
+          "img": "imgs/merchantlist/maocai/detail_2.webp",
+          "firstLine": "菠萝啤酒",
+          "secondLine": "啤酒",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 9,
+          "fourthLineNum": 0
+        }, {
+          "id": "5",
+          "img": "imgs/merchantlist/maocai/detail_3.webp",
+          "firstLine": "羊肉卷",
+          "secondLine": "小菜",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "6",
+          "img": "imgs/merchantlist/maocai/detail_4.webp",
+          "firstLine": "香煎鸡蛋",
+          "secondLine": "很香, 美味的流口水",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15, 
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "003",
+        "title": "冒菜小配菜",
+        "foodList": [{
+          "id": "7",
+          "img": "imgs/merchantlist/maocai/detail_3.webp",
+          "firstLine": "羊肉卷",
+          "secondLine": "小菜",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "8",
+          "img": "imgs/merchantlist/maocai/detail_5.webp",
+          "firstLine": "鸭肠",
+          "secondLine": "小菜",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 25,
+          "fourthLineNum": 0
+        }, {
+          "id": "9",
+          "img": "imgs/merchantlist/maocai/detail_6.webp",
+          "firstLine": "娃娃菜",
+          "secondLine": "娃娃菜",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 8,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "004",
+        "title": "面食专区",
+        "foodList": [{
+          "id": "10",
+          "img": "imgs/merchantlist/maocai/detail_7.webp",
+          "firstLine": "泡面",
+          "secondLine": "以鲜美的汤汁，配以爽滑的泡面",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 10,
+          "fourthLineNum": 0
+        }, {
+          "id": "11",
+          "img": "imgs/merchantlist/maocai/detail_8.webp",
+          "firstLine": "米饭",
+          "secondLine": "下饭可口",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 2,
+          "fourthLineNum": 0
+        }, {
+          "id": "12",
+          "img": "imgs/merchantlist/maocai/detail_8.webp",
+          "firstLine": "木桶米饭",
+          "secondLine": "下饭可口",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 3,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "005",
+        "title": "其它配菜",
+        "foodList": [{
+          "id": "13",
+          "img": "imgs/merchantlist/maocai/detail_9.webp",
+          "firstLine": "腐竹",
+          "secondLine": "豆制品, 鲜香嫩滑",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 12,
+          "fourthLineNum": 0
+        }, {
+          "id": "14",
+          "img": "imgs/merchantlist/maocai/detail_10.webp",
+          "firstLine": "小份油条",
+          "secondLine": "油而不腻",
+          "thirdLine": ["月售678"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }, {
+          "id": "15",
+          "img": "imgs/merchantlist/maocai/detail_10.webp",
+          "firstLine": "大份油条",
+          "secondLine": "油而不腻",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 10,
+          "fourthLineNum": 0
+        }]
+      }] 
+    },
+    "merchantinfoList": {
+      "address": "市心南路37号"
+    }
+  },
+  {
+    "listList": {
+      "img": "imgs/sildeShow/nav01.jpg",
+      "list": [{
+        "id": "001",
+        "title": "热销",
+        "icon": "imgs/menu/hot.png",
+        "foodList": [{
+          "id": "1",
+          "img": "imgs/merchantlist/xiaziwei/detail_1.1.webp",
+          "firstLine": "爆款小龙虾",
+          "secondLine": "鲜美肉汁, 劲道有嚼劲",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "2",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.2.webp",
+          "firstLine": "加鸡蛋2个(香煎鸡蛋)加鸡蛋2个(香煎鸡蛋)",
+          "secondLine": "爽滑Q弹",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "3",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.1.webp",
+          "firstLine": "香煎饼",
+          "secondLine": "以鲜香著称",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "002",
+        "title": "推荐",
+        "icon": "imgs/menu/discount.png",
+        "foodList": [{
+          "id": "4",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.3.webp",
+          "firstLine": "鲜美皮蛋",
+          "secondLine": "润滑",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 9,
+          "fourthLineNum": 0
+        }, {
+          "id": "5",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.1.webp",
+          "firstLine": "羊肉粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 33,
+          "fourthLineNum": 0
+        }, {
+          "id": "6",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_4.2.webp",
+          "firstLine": "香煎鸡蛋",
+          "secondLine": "很香",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "003",
+        "title": "遵义招牌汤粉(面)",
+        "foodList": [{
+          "id": "7",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.1.webp",
+          "firstLine": "经典羊肉粉",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 20,
+          "fourthLineNum": 0
+        }, {
+          "id": "8",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.2.webp",
+          "firstLine": "经典牛肉粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 35,
+          "fourthLineNum": 0
+        }, {
+          "id": "9",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_1.3.webp",
+          "firstLine": "原汤米粉",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 8,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "004",
+        "title": "遵义招牌套餐",
+        "foodList": [{
+          "id": "10",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.1.webp",
+          "firstLine": "套餐1",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 22,
+          "fourthLineNum": 0
+        }, {
+          "id": "11",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.2.webp",
+          "firstLine": "套餐2",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 31,
+          "fourthLineNum": 0
+        }, {
+          "id": "12",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_3.1.webp",
+          "firstLine": "套餐3",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 5,
+          "fourthLineNum": 0
+        }]
+      }, {
+        "id": "005",
+        "title": "遵义干拌",
+        "foodList": [{
+          "id": "13",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.1.webp",
+          "firstLine": "羊肉拌粉",
+          "secondLine": "以鲜美遵义山羊肉，配以爽滑的米粉",
+          "thirdLine": ["月售500+", "赞20"],
+          "fourthLinePrice": 12,
+          "fourthLineNum": 0
+        }, {
+          "id": "14",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.2.webp",
+          "firstLine": "牛肉拌粉",
+          "secondLine": "爽滑的米粉",
+          "thirdLine": ["月售333"],
+          "fourthLinePrice": 3,
+          "fourthLineNum": 0
+        }, {
+          "id": "15",
+          "img": "imgs/merchantlist/zunyiyangroufen/detail_2.3.webp",
+          "firstLine": "鸡蛋拌粉",
+          "secondLine": "以鲜米粉",
+          "thirdLine": ["赞20"],
+          "fourthLinePrice": 15,
+          "fourthLineNum": 0
+        }]
+      }] 
+    },
+    "merchantinfoList": {
+      "address": "宁围街道市心北路1号"
+    }
+  }]
+}

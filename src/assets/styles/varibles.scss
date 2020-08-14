@@ -1,0 +1,31 @@
+$darkTextColor : #333;
+$bgColor: #fff;
+$boxshadow: 1px 1px 5px rgba($color: #ccc, $alpha: 0.2), -1px -1px 5px rgba($color: #ccc, $alpha: 0.2);
+$commonSpace: .2rem;
+$orange: rgba(255, 202, 74, 1);
+$footerHeight: 1.2rem;
+$footerHomeHeight: 1rem;
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin merchantDiscount {
+  color: rgb(255, 128, 64);
+  font-size: .22rem;
+  font-weight: 300;
+  border: 1px solid rgb(252, 206, 183);
+  border-radius: 5px;
+  margin-right: .1rem;
+  padding: .04rem;
+}
+
+@mixin clearfix {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
