@@ -1,0 +1,19 @@
+{
+  "ret": true,
+  "myList": {
+      "name": "南风逸恒",
+      "memberP1": "美团会员",
+      "memberP2": "无可用红包",
+      "propertyName": "我的资产",
+      "propertyList": {
+        "propertyItem1": "金豆",
+        "propertyItem2": "红包",
+        "propertyItem3": "代金券",
+        "propertyItem4": "津贴"
+      },
+      "walletName": "我的钱包",
+      "walletList": ["借钱", "美团信用卡", "月付", "账单"],
+      "menuName": "我的功能",
+      "menuList": ["我的地址", "我的足迹", "收藏的店", "答谢", "记录", "我的评价", "发票券"]
+  }
+}
