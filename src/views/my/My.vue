@@ -2,7 +2,7 @@
   <div class="my">
     <header class="header">
       <div class="header-block">
-        <div class="header-portrait"></div>
+        <div class="header-portrait" />
         <p class="header-name">卢长豪</p>
       </div>
     </header>
@@ -13,7 +13,12 @@
     <div class="property block">
       <header class="block-header">{{myList.propertyName}}</header>
       <div class="block-content">
-        <a href="#" class="block-a" v-for="(item, name, index) in myList.propertyList" :key="index">
+        <a
+          href="#"
+          class="block-a"
+          v-for="(item, name, index) in myList.propertyList"
+          :key="index"
+        >
           {{item}}
         </a>
       </div>
@@ -21,7 +26,12 @@
     <div class="wallet block">
       <header class="block-header">{{myList.walletName}}</header>
       <div class="block-content">
-        <a href="#" class="block-a" v-for="(item, index) of myList.walletList" :key="index">
+        <a
+          href="#"
+          class="block-a"
+          v-for="(item, index) of myList.walletList"
+          :key="index"
+        >
           {{item}}
         </a>
       </div>
@@ -29,7 +39,12 @@
     <div class="menu block">
       <header class="block-header">{{myList.menuName}}</header>
       <div class="block-content">
-        <a href="#" class="block-a" v-for="(item, index) of myList.menuList" :key="index">
+        <a
+          href="#"
+          class="block-a"
+          v-for="(item, index) of myList.menuList"
+          :key="index"
+        >
           {{item}}
         </a>
       </div>
@@ -39,113 +54,129 @@
 
 <script>
 import axios from 'axios'
+
 export default {
   name: 'My',
-  data () {
+  data() {
     return {
       myList: ''
     }
   },
   methods: {
-    getInfo () {
-      axios.get('https://hauklu.github.io/storage/meituantakeaway/takeAwayJson/my.json')
-        .then(this.getInfoSucc)
+    getInfo() {
+      axios.get('https://hauklu.github.io/storage/meituantakeaway/takeAwayJson/my.json').then(this.getInfoSucc)
     },
-    getInfoSucc (res) {
+    getInfoSucc(res) {
       res = res.data
       if (res.ret && res.myList) {
         this.myList = res.myList
       }
     }
   },
-  mounted () {
+  mounted() {
     this.getInfo()
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import '~styles/varibles.scss';
+@import "~styles/varibles.scss";
 body {
-  background: rgba($color: #faf5f5fa, $alpha: 1.0);
+  background: rgba($color: #faf5f5fa, $alpha: 1);
 }
+
 .my {
   padding-bottom: $footerHomeHeight;
 }
+
 .header {
   height: 2rem;
   position: relative;
 }
+
 .header-block {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .header-portrait {
-  height: .8rem;
-  width: .8rem;
+  height: 0.8rem;
+  width: 0.8rem;
   background: url(/imgs/my/myPhoto.png) no-repeat center;
-  background-size: .8rem .8rem;
+  background-size: 0.8rem 0.8rem;
   margin: 0 auto;
   border-radius: 50px;
 }
+
 .header-name {
-  height: .5rem;
-  line-height: .5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
 }
+
 .member {
   height: 1rem;
   border-radius: 8px;
   background: rgb(112, 72, 72);
-  margin: .2rem;
+  margin: 0.2rem;
   text-align: center;
-  padding: .1rem;
+  padding: 0.1rem;
   box-sizing: border-box;
 }
+
 .member-p:nth-child(1) {
-  height: .4rem;
-  line-height: .4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
   color: #fff;
-  font-size: .23rem;
+  font-size: 0.23rem;
   font-weight: 300;
 }
+
 .member-p:nth-child(2) {
-  height: .4rem;
-  line-height: .4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
   color: #fff;
-  font-size: .28rem;
+  font-size: 0.28rem;
 }
+
 .block {
   border-radius: 8px;
-  box-shadow: 3px 3px 3px rgba($color: #ccc, $alpha: 1.0), -3px -3px 3px rgba($color: #ccc, $alpha: 1.0);
-  margin: .2rem .2rem;
-  padding: .2rem;
+  box-shadow: 3px 3px 3px rgba($color: #ccc, $alpha: 1),
+    -3px -3px 3px rgba($color: #ccc, $alpha: 1);
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem;
   background: #fff;
 }
+
 .block-header {
-  font-size: .25rem;
+  font-size: 0.25rem;
   font-weight: 600;
   color: $darkTextColor;
-  height: .5rem;
-  line-height: .5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
 }
+
 .block-content {
   display: flex;
   flex-wrap: wrap;
 }
-.property .block-a{
+
+.property .block-a {
   width: 30%;
 }
-.wallet .block-a{
+
+.wallet .block-a {
   // width: 25%;
   flex: 0 0 25%;
 }
-.menu .block-a{
+
+.menu .block-a {
   width: 25%;
 }
+
 .block-a {
-  font-size: .3rem;
+  font-size: 0.3rem;
   font-weight: 400;
   color: $darkTextColor;
   text-align: center;
