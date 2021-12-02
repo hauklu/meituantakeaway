@@ -3,7 +3,7 @@
     <header class="header">
       <div class="header-block">
         <div class="header-portrait" />
-        <p class="header-name">卢长豪</p>
+        <p class="header-name">逃逃六</p>
       </div>
     </header>
     <div class="member">
@@ -104,7 +104,7 @@ body {
 .header-portrait {
   height: 0.8rem;
   width: 0.8rem;
-  background: url(/imgs/my/myPhoto.png) no-repeat center;
+  background: url(/imgs/my/portrait.png) no-repeat center;
   background-size: 0.8rem 0.8rem;
   margin: 0 auto;
   border-radius: 50px;
